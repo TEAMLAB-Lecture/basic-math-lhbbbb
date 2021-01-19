@@ -66,7 +66,7 @@ def get_mean(number_list):
             >>> bm.get_mean(number_list)
             47
     """
-    mean = sum(number_list) // len(number_list)
+    mean = sum(number_list) / len(number_list)
     return mean
 
 
